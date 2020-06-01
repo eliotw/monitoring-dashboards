@@ -11,7 +11,7 @@ steps:
           id: 'Delete dashboard'
           args:
                   [
-                          'gcloud', 'monitoring', 'dashboards', 'delete', '--quiet', 'projects/\$PROJECT_ID/dashboards/\${_DASHBOARD_ID}''
+                          'gcloud', 'monitoring', 'dashboards', 'delete', '--quiet', 'projects/\$PROJECT_ID/dashboards/\${_DASHBOARD_ID}'
                   ]
 
         - name: 'google/cloud-sdk'
